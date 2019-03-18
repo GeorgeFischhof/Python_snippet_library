@@ -1,4 +1,6 @@
 
+from lxml import etree 
+
 def is_xml_well_formed(xml_file_name):
     xml_well_formed = dict().fromkeys(('is_well_formed', 'error_message'))
     try:
